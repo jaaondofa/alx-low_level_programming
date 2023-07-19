@@ -1,15 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "main.h"
 /**
- * main :- prints out a string
- * return: 0 success
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-
-	char c = _putchar;
-
-	printf("%s/n" c);
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
